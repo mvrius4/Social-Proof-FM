@@ -103,12 +103,22 @@ body .attribution a:hover {
   }
   body .container .ratings .rating {
     margin: 2.5rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .container .ratings .rating img {
+    width: 17px;
+    height: 16px;
   }
   body .container .ratings .r1 {
-    margin-left: -15rem;
+    margin-left: -5rem;
   }
-  body .container .ratings .r2 {
-    margin-left: -7.5rem;
+  body .container .ratings .r3 {
+    margin-left: 5rem;
   }
   body .content {
     display: -webkit-box;
